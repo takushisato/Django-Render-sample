@@ -13,4 +13,4 @@ class Command(BaseCommand):
                 email=settings.SUPERUSER_EMAIL,
                 password=settings.SUPERUSER_PASSWORD
             )
-            print("スーパーユーザー作成しました")
+            print("スーパーユーザー作成しました!!")
