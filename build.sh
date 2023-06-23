@@ -2,6 +2,7 @@
 # exit on error
 set -o errexit
 
+poetry init
 poetry install
 poetry shell
 
