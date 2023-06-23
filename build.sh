@@ -2,6 +2,8 @@
 # exit on error
 set -o errexit
 
+rm pyproject.toml
+
 poetry init
 poetry install
 poetry shell
